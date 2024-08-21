@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.App {
+	text-align: center;
+	background: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: #bbee11;
+}
+
+.Board {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+button {
+	font-size: 6vh;
+	width: 12vh;
+	height: 12vh;
+	margin: 2vh;
+	background: #282c34;
+	color: #bbee11;
+	border: 3px solid #bbee11;
+	border-radius: 5px;
+}
